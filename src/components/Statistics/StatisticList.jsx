@@ -3,7 +3,8 @@ import {
   Label,
   Percentage,
 } from './Statistics.styled.jsx';
-export const StatList = ({ stats }) => {
+
+export const StatisticList = ({ stats }) => {
     return (
         stats.map(stats => 
                <Item key={stats.id}>

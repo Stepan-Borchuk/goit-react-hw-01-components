@@ -5,7 +5,7 @@ import {
   StatistList
 } from './Statistics.styled.jsx';
 
-import { StatList } from "./StatList"
+import { StatisticList } from "./StatisticList"
 import { Tittle } from "./Title"
 
 export const Statistics = ({title, stats}) => {
@@ -21,7 +21,7 @@ export const Statistics = ({title, stats}) => {
             >
              {title && (<Tittle title={title}/>)}
             <StatistList>
-                <StatList
+                <StatisticList
                 stats={stats}/>
             </StatistList>
          
