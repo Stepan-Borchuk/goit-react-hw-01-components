@@ -1,9 +1,10 @@
 import { Profile } from "./Profile/Profile";
 import data from './Statistics/data.json'
-// import transaction from './Transactions/transactions.json'
+import transactions from './Transactions/transactions.json'
 import user from './Profile/user.json';
 import { Statistics } from "./Statistics/Statistics";
 import { FriendsList } from "./Friends/FriendsList";
+import { TransactionHistory } from "./Transactions/TransactionHistory";
 // import { Friends } from "./Friends/Friends";
 
 export const App = () => {
@@ -22,7 +23,9 @@ export const App = () => {
       
       {/* <Friends/> */}
 
-      <FriendsList/>
+      <FriendsList />
+      
+      <TransactionHistory items={transactions} />;
       
 
       

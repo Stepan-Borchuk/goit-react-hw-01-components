@@ -1,5 +1,6 @@
+import { Title} from './Statistics.styled.jsx';
 export const Tittle = ({ title }) => {
-   return ( <h2 class="title">{title}</h2>)
+   return ( <Title>{title}</Title>)
 }
        
     

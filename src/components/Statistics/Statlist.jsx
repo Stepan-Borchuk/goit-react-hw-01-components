@@ -1,10 +1,15 @@
+import {
+  Item,
+  Label,
+  Percentage,
+} from './Statistics.styled.jsx';
 export const StatList = ({ stats }) => {
     return (
         stats.map(stats => 
-               <li class="item">
-                <span class="label">{stats.label}</span>
-                <span class="percentage">{stats.percentage}</span>
-                </li>
+               <Item key={stats.id}>
+                <Label>{stats.label}</Label>
+                <Percentage>{stats.percentage}</Percentage>
+                </Item>
         )
     )
 }  

@@ -1,5 +1,7 @@
-export const Profileimage = ({avatar}) => {
+import styles from './Profile.module.css';
+
+export const Profileimage = ({ avatar }) => {
     return (
-        <img src={avatar} alt="User avatar" class="avatar" />
+        <img src={avatar} alt="User avatar" className={styles.avatar} />
     )    
 }
