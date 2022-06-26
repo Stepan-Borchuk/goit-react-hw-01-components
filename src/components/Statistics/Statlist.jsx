@@ -1,4 +1,4 @@
-export const Statlist = ({ stats }) => {
+export const StatList = ({ stats }) => {
     return (
         stats.map(stats => 
                <li class="item">

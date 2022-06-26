@@ -1,22 +1,21 @@
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
-import { Statlist } from "./Statlist"
+import { StatList } from "./StatList"
 import { Tittle } from "./Title"
 
 export const Statistics = ({title, stats}) => {
     return (
         <section class="statistics">
             {title && (<Tittle title={title}/>)}
-
-
             <ul class="stat-list">
-                <Statlist
+                <StatList
                 stats={stats}/>
             </ul>
     </section>
-
     )
-
-
 }
 
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.object,
+};
