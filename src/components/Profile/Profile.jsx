@@ -11,7 +11,7 @@ export const Profile = ({ avatar, username, tag, location, stats }) => (
             avatar={avatar}
             username={username}
             tag={tag}
-            location={location} />
+            location={location} />,
         <Stats
             stats={stats} />
         </div>
