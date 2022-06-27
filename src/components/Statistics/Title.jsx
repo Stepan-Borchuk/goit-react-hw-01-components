@@ -1,9 +1,4 @@
-import { Title} from './Statistics.styled.jsx';
+import { Title } from './Statistics.styled.jsx';
 export const Tittle = ({ title }) => {
-   return ( <Title>{title}</Title>)
-}
-       
-    
-    
-    
-
+  return <Title>{title}</Title>;
+};

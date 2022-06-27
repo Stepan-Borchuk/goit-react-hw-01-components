@@ -1,7 +1,6 @@
 import { color, space, layout, flexbox, shadow } from 'styled-system';
 // import styled from '@emotion/styled';
-import styled from 'styled-components'
-
+import styled from 'styled-components';
 
 export const Box = styled('div')(color, space, layout, flexbox, shadow);
 
