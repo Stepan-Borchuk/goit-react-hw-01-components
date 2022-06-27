@@ -16,21 +16,21 @@
 }
 
 .statusOn {
-      margin-left: 10px;
+  margin-left: 10px;
   margin-right: 20px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-   color: green;
+  color: green;
 }
 
 .statusOff {
- margin-left: 10px;
+  margin-left: 10px;
   margin-right: 20px;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-   color: red;
+  color: red;
 }
 
 .avatar {
